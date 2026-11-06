@@ -1,0 +1,3 @@
+torch>=2.0
+matplotlib   # notebook loss curve only
+jupyter      # to run the notebook

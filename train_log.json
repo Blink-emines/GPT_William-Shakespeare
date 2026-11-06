@@ -1,0 +1,38 @@
+{
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "precision": "bf16 autocast",
+  "parameters": 10788929,
+  "best_val_loss": 1.5975120067596436,
+  "train_time_s": 434.0,
+  "stop_reason": "reached target val loss 1.7",
+  "hyperparameters": {
+    "batch_size": 64,
+    "block_size": 256,
+    "max_iters": 5000,
+    "learning_rate": 0.0003,
+    "n_embd": 384,
+    "n_head": 6,
+    "n_layer": 6,
+    "dropout": 0.2
+  },
+  "history": [
+    {
+      "step": 0,
+      "train": 4.2221,
+      "val": 4.2306,
+      "time_s": 36.0
+    },
+    {
+      "step": 500,
+      "train": 1.7528,
+      "val": 1.9052,
+      "time_s": 235.0
+    },
+    {
+      "step": 1000,
+      "train": 1.3886,
+      "val": 1.5975,
+      "time_s": 434.0
+    }
+  ]
+}

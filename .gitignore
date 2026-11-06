@@ -1,0 +1,13 @@
+# environments
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# model checkpoints (regenerate with: python gpt.py train)
+*.pt
+
+# local scratch files
+test.py
+bigram.py
+Untitled-1.ipynb
+train_output.txt
